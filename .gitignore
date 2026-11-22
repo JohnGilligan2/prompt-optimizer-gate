@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Real golden sets, fixtures and traces are mined from production and hold
+# customer content. They stay local and are never committed.
+fixtures/
+golden/
+out/
+candidates/
+*.local.*
